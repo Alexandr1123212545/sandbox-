@@ -1,0 +1,106 @@
+.contacts {
+  background-color: var(--background-dark-color);
+  padding: 90px;
+}
+
+.contacts__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contacts__box-left,
+.contacts__box-right {
+  max-width: 545px;
+  min-width: 350px;
+  /* padding: 0 15px; */
+}
+
+.contacts__box-left {
+  text-align: left;
+  color: var(--lite-text-color);
+  text-align: left; /* Why don't work!?*/
+}
+
+.contacts__adress,
+.contacts__hours,
+.contacts__contact {
+  display: grid;
+    grid-template-columns: 1fr 1fr;;
+}
+
+.contacts__map iframe {
+  width: 100%;
+  object-fit: cover;
+}
+
+.contacnts__form {
+  background-color: var(--lite-text-color);
+  padding: 59px 42px;
+  height: 100%;
+}
+
+.contacnts__form {
+  justify-content: center;
+}
+
+.contacts__title h2 {
+  font-size: 33px;
+  font-family: var(--title-font-family);
+  font-weight: 700;
+
+}
+
+.contacnts__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+
+  margin-top: 25px;
+}
+.contact-left-col h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.form__fields {
+  margin-top: 25px;
+}
+
+.form__box-title {
+  font-size: 33px;
+  font-weight: 700;
+  font-family: var(--title-font-family);
+  color: var(--dark-text-color);
+
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form__box-title span {
+  color:var(--mokko-text-color);
+}
+
+.form__field {
+  margin-bottom: 24px;
+  height: 35px;
+  padding: 10px 10px;
+  margin-bottom: 24px;
+  width: 100%;
+  background-color: rgb(185 183 181 / 41%);
+  border: none;
+}
+
+.form__fields textarea {
+  height: 100%;
+}
+
+.form__button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: var(--mokko-text-color);
+}
+
+.form__button:hover {
+  background-color: var(--background-dark-color);
+  color: var(--lite-text-color);
+}
