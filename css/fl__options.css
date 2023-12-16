@@ -1,4 +1,5 @@
 .fl__options {
+  padding-top: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -9,14 +10,12 @@
   font-size: 33px;
   font-weight: 700;
   font-family: var(--title-font-family);
-
   margin-top: 25px;
 }
 
 .fl__subtitle {
   font-size: 18px;
   font-weight: 400;
-
   margin-top: 25 px;
   max-width: 715px;
 }

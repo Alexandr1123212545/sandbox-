@@ -1,4 +1,6 @@
 .services {
+  padding-bottom: 60px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,6 +16,7 @@
 }
 
 .services__items {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,21 +32,18 @@
   object-fit: cover;
 }
 
-.services__item h3, p {
+/* .services__item h3, p {
   text-align: center;
-}
-
-.item-name-text {
-  font-size: 22px;
-  font-weight: bold;
-
-}
-
-/* .services__item-description {
-  align-items: flex-end;
 } */
 
+.item-name-text {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .item-price-text {
+  margin-top: 20px;
   font-size: 16px;
   font-weight: 400;
 }

@@ -1,4 +1,5 @@
 .intro {
+  padding: 65px 0 90px;
   display: flex;
   flex-direction: column;
   padding-top: 65px;
@@ -12,12 +13,11 @@
 }
 
 .intro__title {
+  margin: 20px;
   font-size: 33px;
   font-weight: 700;
   font-family: var(--title-font-family);
   color: var(--general-text-color);
-  
-  margin-top: 20px 0 25px;
 }
 
 .intro__description {
@@ -28,14 +28,14 @@
 }
 
 .intro__down {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 50px;
   
 }
 
 .intro__down-img {
   max-width: 100%;
-  /* overflow: hidden; */
   padding: 0 15px;
 }
 

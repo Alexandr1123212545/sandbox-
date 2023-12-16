@@ -10,11 +10,6 @@
   color: var(--lite-text-color);
 }
 
-/* .header a {
-  text-decoration: none;
-  color: inherit;
-} */
-  
 .header__top {
   padding: 30px 15px;
 
@@ -60,10 +55,6 @@
 .nav__list a:hover{
   color: var(--mokko-text-color);
 }
-
-/* .nav__logo {
-
-} */
 
 .logo__name {
   margin: 0 auto;
@@ -112,14 +103,12 @@
   font-size: 70px;
   font-weight: 700;
   font-family: var(--title-font-family);
-
   margin-top: 20px;
 }
 
 .content__subtitle {
   font-size: 18px;
-  font-weight: 400;
-
+  font-weight: 600;
   margin-top: 35px;
 }
 
@@ -138,7 +127,6 @@
 
 .button a:hover {
   background-color: var(--lite-text-color);
-  /* font-weight: 900; */
   color: var(--dark-text-color);
 }
 

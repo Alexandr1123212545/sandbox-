@@ -1,4 +1,22 @@
+.wood__species {
+  padding-top: 65px;
+  padding-bottom: 60px;
+
+}
+
+.wood__species h2{
+  text-align: center;
+}
+
+.species__title {
+  font-size: 33px;
+  font-weight: 700;
+  font-family: var(--title-font-family);
+  margin-top: 20px;
+}
+
 .wood__items {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }

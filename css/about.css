@@ -3,6 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
 }
+
 .about__img {
   padding: 0 15px;
 }
@@ -26,7 +27,6 @@
   font-size: 33px;
   font-weight: 700;
   font-family: var(--title-font-family);
-
   margin: 20px 0 0 0;
 }
 
@@ -39,6 +39,5 @@
 }
 
 .about__us-description-up span {
-  color: var(--mokko-text-color); 
+  color: var(--mokko-text-color);
 }
-

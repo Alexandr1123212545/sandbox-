@@ -4,21 +4,24 @@
 }
 
 .contacts__box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 
 .contacts__box-left,
 .contacts__box-right {
   max-width: 545px;
   min-width: 350px;
-  /* padding: 0 15px; */
 }
 
 .contacts__box-left {
-  text-align: left;
   color: var(--lite-text-color);
-  text-align: left; /* Why don't work!?*/
+  text-align: left;                 /* Why don't work!?*/
+}
+
+.testing-box p {
+  text-align: left ;
 }
 
 .contacts__adress,
@@ -28,33 +31,36 @@
     grid-template-columns: 1fr 1fr;;
 }
 
+
 .contacts__map iframe {
   width: 100%;
   object-fit: cover;
 }
 
-.contacnts__form {
+.contacts__box-right {
   background-color: var(--lite-text-color);
   padding: 59px 42px;
   height: 100%;
 }
 
-.contacnts__form {
+.contacts__form {
+  padding: 65px 25px 90px;
   justify-content: center;
 }
 
-.contacts__title h2 {
+.contacts__title {
   font-size: 33px;
   font-family: var(--title-font-family);
-  font-weight: 700;
+  font-weight: 400;
 
 }
 
-.contacnts__subtitle {
+.contacts__subtitle {
   font-size: 18px;
   font-weight: 400;
+  padding: 25px 0 25px;
+  text-align: left;
 
-  margin-top: 25px;
 }
 .contact-left-col h3 {
   font-size: 22px;
@@ -70,8 +76,7 @@
   font-weight: 700;
   font-family: var(--title-font-family);
   color: var(--dark-text-color);
-
-  margin-top: 20px;
+  padding: 20px 0 20px;
   text-align: center;
 }
 
@@ -81,7 +86,7 @@
 
 .form__field {
   margin-bottom: 24px;
-  height: 35px;
+  height: 50px;
   padding: 10px 10px;
   margin-bottom: 24px;
   width: 100%;
