@@ -1,0 +1,42 @@
+.achievements {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 80px;
+}
+
+.achiv__title {
+  font-size: 33px;
+  font-weight: 700;
+  font-family: var(--title-font-family);
+
+  text-align: center;
+  margin-top: 20px;
+}
+
+.achiv__data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: 50px;
+}
+
+.data__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.data__box-num {
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--mokko-text-color);
+  margin: 0;
+}
+
+.data__box-text {
+  font-size: 18px;
+  font-weight: 400;
+
+  margin-top: 25px;
+}

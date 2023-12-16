@@ -1,0 +1,44 @@
+.about-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.about__img {
+  padding: 0 15px;
+}
+
+.about__img img {
+  max-width: 693px;
+  min-width: 325px;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.about__us {
+  max-width: 460px;
+  min-width: 271px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.about__us-title {
+  font-size: 33px;
+  font-weight: 700;
+  font-family: var(--title-font-family);
+
+  margin: 20px 0 0 0;
+}
+
+.about__us-description-up,
+.about__us-description-down {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.about__us-description-up span {
+  color: var(--mokko-text-color); 
+}
+
