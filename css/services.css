@@ -17,9 +17,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: calc(100% + var(--container-paddings) / -2);
-  margin-left: calc(var(--container-paddings) / -2);
-  margin-right: calc(var(--container-paddings) / -2);
 }
 
 .services__item {

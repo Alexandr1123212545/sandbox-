@@ -1,45 +1,44 @@
-.wood__species {
-  text-align: center;
+.wood__items {
+  display: flex;
+  justify-content: space-between;
 }
 
-.species__title {
-  font-size: 33px;
-  font-weight: 700;
-  font-family: var(--title-font-family);
-
-  margin-top: 20px;
+.wood__item {
+  position: relative;
+  margin-right: 20px;
 }
 
-.species__items {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 30px;
-}
-
-.species__item {
-  clear: var(--lite-text-color);
+.wood__item img {
   width: 100%;
-  background-size: cover;
-  padding-bottom: 60%;
+  height: 11vw;
+  display: block;
 }
 
-.wood-name {
-
+.wood__caption {
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--lite-text-color);
+  padding: 10px;
+  margin: 0;
 }
 
-.w__birch {
-  background-image: url(../img/wood.jpg);
-  color: var(--lite-text-color);
+.wood__brich {
+  filter: hue-rotate(0deg) saturate(4%) brightness(117%);
 }
-.w__oak {
-  background-image: url(../img/wood.jpg);
-  color: var(--lite-text-color);
+
+.wood__oak {
+  filter: hue-rotate(17deg) saturate(38%) brightness(130%);
 }
-.w__walnut {
-  background-image: url(../img/wood.jpg);
-  color: var(--lite-text-color);
+
+.wood__walnut {
+  filter: hue-rotate(1deg) saturate(93%) brightness(118%);
 }
-.w__cherry {
-  background-image: url(../img/wood.jpg);
-  color: var(--lite-text-color);
+
+.wood__cherry {
+  filter: hue-rotate(0deg) saturate(137%) brightness(69%);
 }

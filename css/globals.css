@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300;700&display=swap');
 
-:root {
+  :root {
   --container-width: 1170px;
   --container-paddings: 15px;
   --title-font-family: 'Libre Baskerville', serif;
@@ -12,7 +12,8 @@
   --hover-button-nav-color: rgb(192 140 77);
   --background-lite-color: rgb(247, 247, 247);
   --background-white-color: rgb(250, 250, 250);
-  --background-layer-color: rgb(222, 175, 111);
+  --background-layer-color: rgba(222, 175, 111, 0.89);
+  --transparency-text-color: rgb(152, 149, 146);
   
 }
 
@@ -31,6 +32,10 @@ body {
   background-image: url(../img/parallax-background.png);
   background-size: cover;
   background-attachment: fixed;
+}
+
+.background-layer{
+
 }
 
 .d-none {
