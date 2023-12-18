@@ -28,7 +28,8 @@
 
 .wood__item img {
   width: 100%;
-  height: 11vw;
+  height: 120%;
+
   display: block;
 }
 
@@ -36,7 +37,7 @@
   font-size: 28px;
   font-weight: bold;
   position: absolute;
-  bottom: 0;
+  bottom: -25px;
   left: 0;
   right: 0;
   text-align: center;
