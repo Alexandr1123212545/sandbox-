@@ -1,0 +1,35 @@
+.works {
+  text-align: center;
+}
+
+.works__title-text {
+  font-size: 33px;
+  font-weight: 700;
+  font-family: var(--title-font-family);
+  color: var(--dark-text-color);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.works__nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-bottom: 1px solid var(--general-text-color);
+}
+
+.works__nav li.active::after,
+.works__nav li.hover::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background-color: var(--mokko-text-color);
+}
+
+.works__nav-content {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 20px;
+  cursor: pointer;
+}
