@@ -29,7 +29,7 @@
 }
 
 .fl__gallery-content {
-  width: 520px;
+  min-width: 350px;
   display: flex;
   flex-direction: column;
   padding: 0 15px;
