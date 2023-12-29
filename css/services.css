@@ -17,10 +17,20 @@
 
 .services__items {
   margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   padding: 15px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .services__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .services__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .services__item {
@@ -28,14 +38,9 @@
 }
 
 .services__item img {
-  width: 353px;
-  height: 370px;
+  width: 100%;
   object-fit: cover;
 }
-
-/* .services__item h3, p {
-  text-align: center;
-} */
 
 .item-name-text {
   margin-top: 20px;

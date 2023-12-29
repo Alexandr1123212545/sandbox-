@@ -1,7 +1,11 @@
 .about-box {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .about-box {
+    flex-direction: column;
+  }
 }
 
 .about__img {

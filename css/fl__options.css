@@ -28,6 +28,13 @@
   margin-top: 30px;
 }
 
+@media (max-width: 1099px) {
+  .fl__gallery {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .fl__gallery-content {
   min-width: 350px;
   display: flex;

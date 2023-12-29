@@ -2,12 +2,6 @@
   background-color: var(--background-dark-color);
 }
 
-/* .line-conteiner {
-  content: "";
-  border-top: 1px solid white;
-  margin-bottom: 20px;
-} */
-
 .autor-info {
   border-top: 1px solid var(--transparency-text-color);
   color: var(--lite-text-color);

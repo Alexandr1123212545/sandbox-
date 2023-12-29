@@ -28,15 +28,20 @@
 }
 
 .intro__down {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   margin-top: 50px;
-  
+}
+
+@media (max-width: 767px) {
+  .intro__down {
+    flex-direction: column;
+  }
 }
 
 .intro__down-img {
   max-width: 100%;
   padding: 0 15px;
+  flex: 1;
 }
 
 .intro__down-img img {
@@ -49,6 +54,7 @@
 .intro__down-description {
   min-width: 288px;
   padding: 0 15px;
+  flex: 1;
 }
 
 .description-box {
@@ -65,5 +71,4 @@
 .intro__box-number span {
   color: var(--mokko-text-color);
 }
-
 
