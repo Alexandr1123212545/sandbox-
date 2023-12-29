@@ -18,11 +18,12 @@
 }
 
 .testemonials__cards {
-  display: flex;
-  align-items: center;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .testemonials__cards {
     flex-direction: column;
   }
