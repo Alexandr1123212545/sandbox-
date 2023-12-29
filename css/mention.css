@@ -35,6 +35,7 @@
 @media (max-width: 767px) {
   .testemonials__cards {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
   }
 }
 
