@@ -25,10 +25,16 @@
 
 @media (max-width: 991px) {
   .testemonials__cards {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
   }
   .box-card {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testemonials__cards {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
