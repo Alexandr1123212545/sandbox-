@@ -26,13 +26,18 @@
   .testemonials__cards {
     flex-direction: column;
   }
+  .box-card {
+    margin-bottom: 30px;
+  }
 }
+
+
 
 .box-card {
   max-width: 369px;
   padding: 40px 25px;
   background-color: var(--lite-text-color);
-  margin-right: 30px;
+  text-align: center;
 }
 
 .user-photo {
